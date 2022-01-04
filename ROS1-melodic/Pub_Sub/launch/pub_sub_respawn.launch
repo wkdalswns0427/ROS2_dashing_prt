@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="dyros_practice_1" type="publisher_cpp_node" name="dyros_publisher_node" respawn="True"/>
+    <node pkg="dyros_practice_1" type="subscriber_cpp_node" name="dyros_subscriber_node" output="screen"/>
+</launch>
