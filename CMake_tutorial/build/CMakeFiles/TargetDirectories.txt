@@ -1,0 +1,4 @@
+/home/minjun/tutorial/build/CMakeFiles/rebuild_cache.dir
+/home/minjun/tutorial/build/CMakeFiles/MathFunctions.dir
+/home/minjun/tutorial/build/CMakeFiles/edit_cache.dir
+/home/minjun/tutorial/build/CMakeFiles/Tutorial.dir

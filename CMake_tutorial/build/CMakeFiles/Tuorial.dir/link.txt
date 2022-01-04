@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/Tuorial.dir/tutorial.cpp.o  -o Tuorial 

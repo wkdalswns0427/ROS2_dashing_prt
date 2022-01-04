@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/my_math/mysqrt.h
+cmath
+-
+
+/home/minjun/tutorial/src/my_math/mysqrt.cpp
+mysqrt.h
+/home/minjun/tutorial/src/my_math/mysqrt.h
+
