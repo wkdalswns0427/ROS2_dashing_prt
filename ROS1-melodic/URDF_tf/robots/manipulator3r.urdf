@@ -1,0 +1,55 @@
+<robot name="dyros_manipulator3r">
+    <link name="base_link">
+        <visual>
+        <origin xyz="0 0 0.1" rpy="0 0 0"/>
+        <geometry>
+            <box size="0.05 0.05 0.2"/>
+        </geometry>
+        </visual>
+    </link>
+    <joint name="Joint1" type="revolute">
+        <origin xyz="0 0 0.25" rpy="0 0 0"/>
+        <axis xyz="1 0 0"/>
+        <parent link="base_link"/>
+        <child link="Link1"/>
+        <limit effort="30" velocity="1" lower="-3.14" upper="3.14"/>
+    </joint>
+    <link name="Link1">
+        <visual>
+        <origin xyz="0 0 0.125" rpy="0 0 0"/>
+        <geometry>
+            <box size="0.05 0.05 0.2"/>
+        </geometry>
+        </visual>
+    </link>
+    <joint name="Joint2" type="revolute">
+        <origin xyz="0 0 0.25" rpy="0 0 0"/>
+        <axis xyz="1 0 0"/>
+        <parent link="Link1"/>
+        <child link="Link2"/>
+        <limit effort="30" velocity="1" lower="-3.14" upper="3.14"/>
+    </joint>
+    <link name="Link2">
+        <visual>
+        <origin xyz="0 0 0.125" rpy="0 0 0"/>
+        <geometry>
+            <box size="0.05 0.05 0.2"/>
+        </geometry>
+        </visual>
+    </link>
+    <joint name="Joint3" type="revolute">
+        <origin xyz="0 0 0.25" rpy="0 0 0"/>
+        <axis xyz="1 0 0"/>
+        <parent link="Link2"/>
+        <child link="Link3"/>
+        <limit effort="30" velocity="1" lower="-3.14" upper="3.14"/>
+    </joint>
+    <link name="Link3">
+        <visual>
+        <origin xyz="0 0 0.125" rpy="0 0 0"/>
+        <geometry>
+            <box size="0.05 0.05 0.2"/>
+        </geometry>
+        </visual>
+    </link>
+</robot>
