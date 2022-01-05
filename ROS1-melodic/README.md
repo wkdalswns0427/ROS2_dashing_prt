@@ -1,6 +1,14 @@
 # ROS1 melodic folder
 
-all commands are set to source ros1 melodic
+### check whether all commands are set to source ros1 melodic
 
-### must build catkin_ws before anything
-### each packages must be built with catkin build tools
+* Must actuvate roscore before rosrun
+* must build catkin_ws before anything
+* catkin_create-pkg for new packages, add required tools( roscpp, rospy, tf, etc...)
+* each packages must be built with catkin build tools
+
+** commands **
+* roscore
+* rosrun
+* rostopic
+* rosnode
