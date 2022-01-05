@@ -1,12 +1,10 @@
 # ROS tutorial & practice 
 
-## Ubuntu 18.04.6 
+## Ubuntu 18.04.6
 
-
-## ROS1 : ros-melodic
-## ROS2 : ros-dashing
-### can change modes by selectin ROS_V = 1 or 2 on /.bashrc
-
+### ROS1 : ros-melodic
+### ROS2 : ros-dashing
+### change modes by selecting ROS_V = 1 or 2 on /.bashrc
 
 ### catkin build comands and both Python & C++
 ### colcon build comands and both Python & C++
