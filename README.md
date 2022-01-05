@@ -1,4 +1,4 @@
-# ROS tutorial & practice 
+# ROS 1, 2 and Coppeliasim Practice
 
 ## Ubuntu 18.04.6
 
