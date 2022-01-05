@@ -7,8 +7,11 @@
 * catkin_create-pkg for new packages, add required tools( roscpp, rospy, tf, etc...)
 * each packages must be built with catkin build tools
 
+** catkin_create_pkg <package_name> <modules>
+
 ** commands **
 * roscore
 * rosrun
 * rostopic
 * rosnode
+* roslaunch
