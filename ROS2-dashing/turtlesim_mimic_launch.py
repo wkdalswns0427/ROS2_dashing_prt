@@ -20,8 +20,8 @@ def generate_launch_description():
             node_executable='mimic',
             node_name='mimic',
             remappings=[
-                ('/input/pose', '/turtlesim1/turtle1/pose'),
-                ('/output/cmd_vel', '/turtlesim2/turtle1/cmd_vel'),
+                ('/input/pose', '/turtlesim1/turtle1/pose'), # turtle 1의 position이
+                ('/output/cmd_vel', '/turtlesim2/turtle1/cmd_vel'), # turtle 2의 cmd
             ]
         )
     ])
