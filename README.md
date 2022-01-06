@@ -15,6 +15,7 @@
 ### copy and paste below at the end of your .bashrc
 ### change modes by selecting ROS_V = 1 or 2 on /.bashrc
 
+```
   ROS_V=1 # Select ROS Version 1 or 2
 
   # ROS_V값이 1이면, ROS1 관련 환경변수/Workspace/Shortcut 활성화
@@ -60,7 +61,7 @@
     alias testpubimg='ros2 run image_tools cam2image'
     alias testsubimg='ros2 run image_tools showimage'
   fi
-
+```
 
 ## Reference
 * [1] https://cafe.naver.com/openrt/24065
