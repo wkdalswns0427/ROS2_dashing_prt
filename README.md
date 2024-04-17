@@ -1,13 +1,24 @@
 
-# ROS 1 melodic and Coppeliasim Practice
+# ROS1 Melodic & ROS2 Dashing Baseline
 
-## Ubuntu 18.04.6
+ Ubuntu 18.04.6
 
-### ROS1 : ros-melodic
+## ROS1 : ros-melodic
 * catkin build comands and both Python & C++
 
 ### Coppeliasim 4.0.0 Educational
 ![cupGripping](https://user-images.githubusercontent.com/68832065/148175617-8be1b254-32cc-44bf-af6b-98055048882e.gif)
+
+## ROS2 : ros2-dashing
+### must build colcon_ws before anything
+### each packages must be built with colcon build tools
+
+** commands **
+* ros2 node
+* ros2 topic (ex. ros2 topic pub --rate 1 /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1.8}}")
+* ros2 service
+* ros2 param
+* ros2 action
 
 ## Simpe ROS version conversion
 ### copy and paste below at the end of your .bashrc
